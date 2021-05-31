@@ -55,7 +55,7 @@ module.exports.deleteCard = (req, res, next) => {
       if (err.message === 'NotFound') {
         throw new NotFoundError('Запрашиваемая карточка не найдена');
       } else {
-        next(err)
+        next(err);
       }
     })
     // if (!data) {
