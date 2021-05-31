@@ -1,0 +1,22 @@
+.profile__title-box {
+    margin: 0;
+    margin-left: 46px;
+    margin-right: 18px;
+    padding: 0;
+    min-width: 282px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 880px) {
+    .profile__title-box {
+        width: 336px;
+        margin: 0;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
+

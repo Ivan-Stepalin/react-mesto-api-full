@@ -1,0 +1,11 @@
+.popup__input-box {
+    margin: 28px 0 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 880px) {
+    .popup__input-box {
+        margin: 46px 0 0;
+        padding: 0;
+    }
+}

@@ -1,0 +1,19 @@
+.popup__info {
+    margin: 0 auto 0;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 60px 20px 0;
+    width: 282px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    padding-bottom: 25px;   
+}
+
+@media screen and (min-width: 880px) {
+    .popup__info {
+        width: calc(430px - 36px * 2);
+        padding: 60px 36px 60px;
+        padding-bottom: 60px;
+    }
+}

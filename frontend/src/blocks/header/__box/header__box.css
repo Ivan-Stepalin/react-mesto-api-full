@@ -1,0 +1,11 @@
+.header__box {
+    margin: 0;
+    padding: 0;
+    padding-top: 8px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    min-width: 60px;
+    justify-content: space-between;
+}

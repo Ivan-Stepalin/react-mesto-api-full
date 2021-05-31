@@ -1,0 +1,21 @@
+.element__bracket {
+    width: 25px;
+    height: 25px;
+    background-image: url(../../../images/bracket.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border: none;
+    color: inherit;
+    background-color: transparent;
+    z-index: 1;
+    outline: none;
+    position: absolute;
+    top: 24px;
+    right: 17px;
+}
+
+.element__bracket:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
